@@ -1,0 +1,14 @@
+.completada{
+    background-color: #D95E32;
+    color: white;
+}
+h1{
+    margin-top: 15px;
+}
+tr{
+    border-radius: 15px;
+}
+tr, th{
+    background-color: #5C82F2;
+    color: #E8EDF8;
+}
