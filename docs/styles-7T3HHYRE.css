@@ -1,1 +1,37 @@
-body{background-color:#ced7f2}table{text-align:center}
+body {
+    background-color: #CED7F2; /* Color de fondo */
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    color: #333; /* Color del texto */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrar el contenido horizontalmente */
+    align-items: center; /* Centrar el contenido verticalmente */
+    height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse; /* Quitar espacios entre bordes */
+    background-color: white; /* Fondo de la tabla */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para la tabla */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden;
+}
+
+table, th, td {
+    border: 1px solid #ccc; /* Bordes de la tabla */
+    padding: 10px; /* Espaciado interno de las celdas */
+    text-align: center; /* Centrar texto */
+}
+
+th {
+    background-color: #5F73A1; /* Fondo del encabezado */
+    color: white; /* Color del texto del encabezado */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    font-weight: bold; /* Texto en negrita */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo para filas pares */
+}
